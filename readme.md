@@ -1,0 +1,2 @@
+## Paragon Assignment Test - Khoerul Umam
+This repository contains cypress end to end testing for https://recruitment-staging-queenbee.paradev.io. The repository will be updated to improve all of possible scenarios with focus on login and order features. As an assignment rule, the test should be finished on 30 June 2025 00:00 West Indonesia Time.
