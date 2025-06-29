@@ -23,7 +23,7 @@ describe("Login Failed Flow", () => {
   it("should show user account has been locked if we login with wrong credentials more than available attemps", () => {
     cy.get("a").contains(/masuk/i).click();
     cy.contains(/nomor hp/i).click();
-    cy.fixture("user").then((user) => {
+    cy.fixture("user-failed").then((user) => {
       cy.get('input[name="phone"]').type(user.phone);
       cy.get('input[name="password"]').type("wrongpassword");
     });
